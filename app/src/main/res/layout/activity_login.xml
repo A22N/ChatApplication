@@ -19,29 +19,57 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_below="@id/app_logo"
-        android:layout_marginTop="18dp"
-        android:hint="Email"
-        android:paddingLeft="13dp"
-        android:background="@drawable/edit_background"
         android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/edit_background"
+        android:hint="Email"
+        android:paddingLeft="13dp" />
+
     <EditText
         android:id="@+id/edit_password"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_below="@id/edit_email"
-        android:layout_marginTop="18dp"
-        android:hint="Password"
-        android:paddingLeft="13dp"
-        android:background="@drawable/edit_background"
         android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/edit_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="13dp" />
+
+
+    <ImageView
+        android:id="@+id/show_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_password"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-37dp"
+        android:layout_marginRight="45dp"
+        android:src="@drawable/ic_hide_password_24" />
+
+    <Button
+        android:id="@+id/btn_forgot_password"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/edit_password"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/btn_background_forgotpw"
+        android:text="Forgot Password?"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edit_password"
+        android:layout_below="@+id/btn_forgot_password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="@drawable/btn_background"

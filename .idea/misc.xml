@@ -5,11 +5,16 @@
       <map>
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/drawable-v24/btn_background.xml" value="0.1745" />
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/drawable-v24/edit_background.xml" value="0.182" />
+        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/drawable/btn_background_forgotpw.xml" value="0.182" />
+        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/drawable/ic_hide_password_24.xml" value="0.182" />
+        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/drawable/ic_show_password_24dp.xml" value="0.182" />
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/drawable/message_box_backgroud.xml" value="0.182" />
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/activity_chat.xml" value="0.25" />
-        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
+        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/dialog_forgot_password.xml" value="0.18568840579710144" />
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/receive.xml" value="0.25" />
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/sent.xml" value="0.33" />
         <entry key="..\:/Users/HAMATASURIMA/AndroidStudioProjects/ChatApplication2/app/src/main/res/layout/user_layout.xml" value="0.25" />

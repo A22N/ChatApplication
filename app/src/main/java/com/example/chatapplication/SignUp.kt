@@ -50,7 +50,7 @@ class SignUp : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     // code to home
-                     addUserToDatabase(name, email,mAuth.currentUser?.uid!!)
+                    addUserToDatabase(name, email,mAuth.currentUser?.uid!!)
 
                     val intent = Intent(this@SignUp, MainActivity:: class.java)
                     finish()

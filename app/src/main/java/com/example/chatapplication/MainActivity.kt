@@ -66,14 +66,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-       if(item.itemId == R.id.logout){
-           // login for logout
-           mAuth.signOut()
-           val intent = Intent(this@MainActivity,Login::class.java)
-           finish()
-           startActivity(intent)
-           return true
-       }
+        if(item.itemId == R.id.logout){
+            // login for logout
+            mAuth.signOut()
+            val intent = Intent(this@MainActivity,Login::class.java)
+            finish()
+            startActivity(intent)
+            return true
+        }
         return true
     }
 }
